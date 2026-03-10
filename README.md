@@ -1,7 +1,17 @@
+
+
 # Implement Task Pipeline
+
+![High-level flow](https://github.com/alfonsograziano/task-draft-agent/blob/master/docs/images/high-level%20flow.png?raw=true)
 
 An automated pipeline that picks up Jira issues, creates AI agent sessions via OpenCode, and coordinates task progress through Slack. When a Jira issue transitions to a new state (by default) "Ready for Investigation", the system spins up an OpenCode session, posts a Slack thread, and lets the AI agent work autonomously — with humans able to intervene at any point via thread replies.
 
+## Use Cases
+
+- **Bug investigation** — When a bug is reported, the agent automatically analyzes logs, traces the root cause, and posts its findings to the Slack thread, saving developers hours of initial triage.
+- **Small task automation** — For straightforward Jira tickets (refactors, config changes, minor features), the agent can generate a draft PR end-to-end, ready for human review.
+- **Code exploration** — Point the agent at a vague ticket and let it research the codebase, summarize relevant code paths, and propose an implementation plan.
+- **PR drafting from specs** — Turn well-defined Jira stories into pull requests with implementation, tests, and documentation.
 
 ## Getting Started
 
