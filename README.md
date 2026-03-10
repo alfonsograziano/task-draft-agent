@@ -41,3 +41,4 @@ MIT
 
 
 Built with ❤️ while experimenting
+Project supported by [Nearform](https://nearform.com/)
