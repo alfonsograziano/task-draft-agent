@@ -13,6 +13,20 @@ An automated pipeline that picks up Jira issues, creates AI agent sessions via O
 - **Code exploration** — Point the agent at a vague ticket and let it research the codebase, summarize relevant code paths, and propose an implementation plan.
 - **PR drafting from specs** — Turn well-defined Jira stories into pull requests with implementation, tests, and documentation.
 
+## In Action
+
+**Step 1:** Add a new item in the right column on Jira
+
+![Step 1](docs/images/in_action_1.jpg)
+
+**Step 2:** The agent will start to work on the code, and, if needed, will reach out directly
+
+![Step 2](docs/images/in_action_2.jpg)
+
+**Step 3:** The agent will open a PR and notify on the related Slack thread that the fix has been implemented
+
+![Step 3](docs/images/in_action_3.jpg)
+
 ## Getting Started
 
 See the [Setup Guide](SETUP_GUIDE.md) for full step-by-step instructions covering Slack app creation, Jira configuration, environment setup, and deployment.
